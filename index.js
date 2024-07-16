@@ -33,9 +33,9 @@ const generateId = () => {
   return String(Math.floor((Math.random() * (1000 - (maxId)) + maxId +1)))
 }
 
-app.use(express.json())
-
 app.use(cors())
+app.use(express.static('dist'))
+app.use(express.json())
 
 morgan.token('personData', (req) => {
   if (req.method === 'POST') {
