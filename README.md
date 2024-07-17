@@ -9,4 +9,4 @@ Standalone repository for part 3.
 
 Build a REST backend for the frontend UI 'Phonebook' built in the previous parts.
 
-[View Live App]
+[View Live App](https://fullstackopen-part3-5280.onrender.com/)
